@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen:false}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vers un monde utopique</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="public/img/Logo.jpg" alt="Logo">
+         </a>
+        <button> <aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen">
+           menu
+        </button>
+        <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.500ms class="menu">
+          <ul>
+            <li><a href="Musique.html">Musique</a></li>
+            <li><a href="Film.html">Film</a></li>
+            <li><a href="Livre.html">Livre</a></li>
+            <li><a href="Lieu.html">Lieu</a></li>
+            <li><a href="Espoir.html">Espoir</a></li>
+            <li><a href="Crainte.html">Crainte</a></li>
+        </ul>
+        <ul>
+            <li><a href="Autre Projet.html">Autre Projet</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="À propos.htmp">À propos</a></li>
+            <li><a href="Glossaite.html">Glossaire</a></li>
+          </ul>
+       </nav>
+      </header>
+     
+      <main>
+      <h1>Vers un monde utopique</h1>
+      <img src="public/img/Début.jpg" alt="Image début">
+        <section>
+            <article>
+                <h2>
+                    <a href="Musique.html">Le futur en musique</a>
+                </h2>
+                <a href="Musique.html">
+                    <img src="public/img/Musique.jpg" alt="Musique">
+                </a>
+                <p>
+                    Orelsan est un rappeur, compositeur et realisateur Français, il c’est fais connaitre en premier temps sur internet
+                    <a href="Musique.html">Lire l'article</a>
+                </p>
+                
+            </article>
+
+            <article>
+                <h2>
+                    <a href="Film.html">Un tout nouveau monde</a>
+                </h2>
+                <a href="Film.html">
+                    <img src="public/img/Film.jpg" alt="Film">
+                </a>
+                <p>
+                    The walking dead est une série téléviser d’horreur américaine
+                    <a href="Film.html">Lire l'article</a>
+                </p>
+                
+            </article>
+
+            <article>
+                <h2>
+                    <a href="Livre.html">L'espour fait vivre</a>
+                </h2>
+                <a href="Livre.html">
+                    <img src="public/img/Livre.jpg" alt="Livre">
+                </a>
+                <p>
+                    La route est un roman post-apocaliptique publié en 2006 au État-Unis
+                    <a href="Livre.html">Lire l'article</a>
+                </p>
+                
+            </article>
+
+            <article>
+                <h2>
+                    <a href="Lieu.html">Les terres désolées</a>
+                </h2>
+                <a href="Lieu.html">
+                    <img src="public/img/Lieu.jpg" alt="Lieu">
+                </a>
+                <p>
+                    La municipalité de Fukushima est une ville du Japon, capitale de la préfecture de Fukushima
+                    <a href="Lieu.html">Lire l'article</a>
+                </p>
+                
+            </article>
+
+            <article>
+                <h2>
+                    <a href="Espoir.html">Une évolution humain ?</a>
+                </h2>
+                <a href="Espoir.html">
+                    <img src="public/img/Espoir.jpg" alt="Espoir">
+                </a>
+                <p>
+                    Les mentalitées humaine sont en net évolution, surement une bonne chose pour l’avenir
+                    <a href="Espoir.html">Lire l'article</a>
+                </p>
+                
+            </article>
+
+            <article>
+                <h2>
+                    <a href="Crainte.html">L'humain court à sa perte</a>
+                </h2>
+                <a href="Crainte.html">
+                    <img src="public/img/Crainte.jpg" alt="Crainte">
+                </a>
+                <p>
+                    A cause des nombreuse guerres, maladies et catastrophe naturelle, l’humanité est en danger 
+                    <a href="Crainte.html">Lire l'article</a>
+                </p>
+                
+            </article>
+
+        </section>
+        <section></section>
+        <section></section>
+    
+    </main>
+
+</body>
+</html>
