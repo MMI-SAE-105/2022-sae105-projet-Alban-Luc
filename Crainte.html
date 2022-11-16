@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen:false}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L’humain court à sa perte ?</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+</head>
+<body>
+   <header>
+    <a href="index.html">
+        <img src="public/img/Logo.jpg" alt="Logo">
+     </a>
+    <button> <aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen">
+       menu
+    </button>
+    <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.500ms class="menu">
+      <ul>
+        <li><a href="Musique.html">Musique</a></li>
+        <li><a href="Film.html">Film</a></li>
+        <li><a href="Livre.html">Livre</a></li>
+        <li><a href="Lieu.html">Lieu</a></li>
+        <li><a href="Espoir.html">Espoir</a></li>
+        <li><a href="Crainte.html">Crainte</a></li>
+    </ul>
+    <ul>
+        <li><a href="Autre Projet.html">Autre Projet</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="À propos.htmp">À propos</a></li>
+        <li><a href="Glossaite.html">Glossaire</a></li>
+      </ul>
+   </nav>    
+   </header> 
+
+   <main>
+        <h1>L’humain court à sa perte ?</h1>
+        <img src="public/img/Crainte.jpg" alt="Crainte Image">
+        <section>
+            <article>
+                <h2>Des Catastrophe</h2>
+                <img src="public/img/Crainte 2.jpg" alt="Crainte 2">
+                <p>A l’heure ou j’écrit cette article, le 21 septembre 2022, le monde devient de plus en plus dangereux. Le typhon Nanmadol a fait environ 4 morts et plus de 100 blessers, le 20 septembre 2022 au Japon, la catastrophe naturelle la plus récente actuellement mais malheureusement loin d’être la seule. Notre monde en a connu d’autre comme l’inondation de la Chine centrale causées par une crue exceptionnelles de fleuves Yangzi Jiang, du fleuve jaune et de la rivière Huai He, c’est la catastrophe naturelle la plus terrible de l’ère moderne avec environ 3,7 millions de personnes mortes.</p>
+            </article>
+            
+            <article>
+                <h2>Des maladies</h2>
+                <img src="public/img/Crainte 3.jpg" alt="Crainte 3">
+                <p>Septembre 2022, nous venons de sortir de l’épidémie du COVID 19, une maladie qui a infectés 613 millions de personnes et qui en a tuées 6,53 millions, après avoir vécu le confinement et le télé travail, je me demande se je peut vivre d’autre d’aussi improbable, mais encore une fois, c’est l’épidémie la plus récente, le monde en a connu des plus terribles, la peste noire, elle a agit entre 1334-1353 causant la perte de 75 à 200 millions de personnes.</p>
+            </article>
+
+            <article>
+                <h2>Des Guerres</h2>
+                <img src="public/img/Crainte 4.jpg" alt="Crainte 4">
+                <p>Les guerres ne se sont jamais arrêtés, actuellement L’Arménie et L’Azerbaïdjan, Palestine et Israël et plein d’autre pays sont en guerre, mais celle qui fais le plus parler d’elle est la guerre en Ukraine, car c’est la plus grande guerre en Europe depuis la seconde guerre mondial en 1939-1945. Depuis 10 000 ans l’humanité a connu la guerre sans la paix !
+                    Plus le temps passe, plus je me rend compte que ma crainte de la fin du monde est réelle car rien n’as changé depuis des milliers d’année. Je pense a toi qui lit ceci et qui vie surement la misère de notre monde malade et en guerre. </p>
+            </article>
+        </section>
+   </main>
+</body>
+</html>

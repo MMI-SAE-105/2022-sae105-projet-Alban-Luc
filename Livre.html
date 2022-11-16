@@ -1,12 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr" x-data="{menuIsOpen:false}">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>L’espoir fait vivre</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
 <body>
-    
+   <header>
+    <a href="index.html">
+        <img src="public/img/Logo.jpg" alt="Logo">
+     </a>
+    <button> <aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen">
+       menu
+    </button>
+    <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.500ms class="menu">
+      <ul>
+        <li><a href="Musique.html">Musique</a></li>
+        <li><a href="Film.html">Film</a></li>
+        <li><a href="Livre.html">Livre</a></li>
+        <li><a href="Lieu.html">Lieu</a></li>
+        <li><a href="Espoir.html">Espoir</a></li>
+        <li><a href="Crainte.html">Crainte</a></li>
+    </ul>
+    <ul>
+        <li><a href="Autre Projet.html">Autre Projet</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="À propos.htmp">À propos</a></li>
+        <li><a href="Glossaite.html">Glossaire</a></li>
+      </ul>
+   </nav>    
+   </header> 
+
+   <main>
+        <h1>L’espoir fait vivre</h1>
+        <img src="public/img/Livre.jpg" alt="Livre Image">
+        <section>
+            <article>
+                <h2>Une fin envisageable ?</h2>
+                <img src="public/img/Livre 2.png" alt="Livre 2">
+                <p>La route c’est l’histoire de la terre devenu post apocalyptique a cause d’un cataclysme de raison inconnu, qui a a peut près ravagé tout se qu’il y avais de vivant sur la surface de la terre, plantes, animaux, seul quelque humains ont survécu mais dans des condition très dramatique a cause du froid, de la faim, et de la rivalité entre les autres survivants qui sont plutôt terrible, vol pour les plus gentil, cannibalisme pour les plus désespérer. L’histoire est centrer sur un père et sont fils, complètement désespérer, complètement démuni, qui décide de partir sur une route vers le sud, vers la mer a la recherche d’espoir, d’une possibilité de survie car on sens, a chaque minute, chaque seconde de lecture que la mort se rapproche potentiellement, que se soit par le froid, les maladies et les hommes, ici, l’expression “l’homme est un loup pour l’homme” n’as jamais eu autant de sens. </p>
+            </article>
+            
+            <article>
+                <h2>Un choix crucial</h2>
+                <img src="public/img/Livre 3.png" alt="Livre 3">
+                <p>Se qui m’a beaucoup intéressé dans le livres, quelque chose de très déprimant c’est: pourquoi survivre ? dans un tel monde complètement dévaster, il y a pas mal de question philosophique sur :  serais-il pas mieux que l’on meurt enfaite ? Le père et le fils ont plus ou moins directement cette discussion, le fils lui même dit qu’il aurait préfère être mort, et la mère si elle est plus la c’est quelle a fais se choix plus ou moins.  </p>
+            </article>
+
+            <article>
+                <h2>Trop de questions, peu de répondes</h2>
+                <img src="public/img/Livre 4.png" alt="Livre 4">
+                <p>Se roman écrit par Cormac McCarthy en 2006, me fais poser plusieurs questions sur notre futur, comment sera-il ? plus joyeux ? plus triste ? dystopique ? utopique ? apocalyptique ? y aura t-il vraiment un futur ? Etant donné que je m’écrit a moi même pour dans une cinquantaine d’années je pense que j’aurais, et quand ducoup toi tu as la réponse, et en vue des actualité a la date ou je rédige cette article, en 2022, je pense que tu as un futur plutôt compliqué, si tu en as un.</p>
+            </article>
+        </section>
+   </main>
 </body>
 </html>
