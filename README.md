@@ -1,7 +1,7 @@
-- NOM : 
-- PRÉNOM :
+- NOM : LUC
+- PRÉNOM : Alban
 - URL du site :
-- URL FIGMA :
+- URL FIGMA : https://www.figma.com/file/VbjzrKLZFzTpIcRz7SsV6v/Maquettes-projet-individuel-%E2%80%94-Alban-LUC-(Copy)?node-id=0%3A1&t=pLIP7sNA7yFkhHtY-1
 
 # Structure de départ pour le projet individuel.
 
