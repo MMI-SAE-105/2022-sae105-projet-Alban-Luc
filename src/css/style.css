@@ -1,0 +1,19 @@
+body {
+    background-color: rgb( 146 , 138 , 129);
+} 
+
+header{
+    background-color: rgb(106 , 89 , 82);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: var(--space2x) var(--space3x);
+}
+
+.titre{
+    position: fixed;
+}

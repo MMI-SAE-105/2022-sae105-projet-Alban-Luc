@@ -8,30 +8,30 @@
     <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
 <body>
-   <header>
-    <a href="index.html">
-        <img src="public/img/Logo.jpg" alt="Logo">
-     </a>
-    <button> <aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen">
-       menu
-    </button>
-    <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.500ms class="menu">
-      <ul>
-        <li><a href="Musique.html">Musique</a></li>
-        <li><a href="Film.html">Film</a></li>
-        <li><a href="Livre.html">Livre</a></li>
-        <li><a href="Lieu.html">Lieu</a></li>
-        <li><a href="Espoir.html">Espoir</a></li>
-        <li><a href="Crainte.html">Crainte</a></li>
-    </ul>
-    <ul>
-        <li><a href="Autre Projet.html">Autre Projet</a></li>
-        <li><a href="Contact.html">Contact</a></li>
-        <li><a href="À propos.htmp">À propos</a></li>
-        <li><a href="Glossaite.html">Glossaire</a></li>
-      </ul>
-   </nav>    
-   </header> 
+    <header class="header">
+        <a class="header_logo" href="index.html">
+            <img src="public/img/Logo.jpg" alt="Logo">
+         </a>
+        <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen">
+           <img src="public/img/MenuBurger.jpg" alt="Menu Burger">
+        </button>
+        <nav class="header_menu" id="mainNav" x-show="menuIsOpen" >
+          <ul>
+            <li class="menu_item"><a class="menu_link" href="Musique.html">Musique</a></li>
+            <li class="menu_item"><a class="menu_link" href="Film.html">Film</a></li>
+            <li class="menu_item"><a class="menu_link" href="Livre.html">Livre</a></li>
+            <li class="menu_item"><a class="menu_link" href="Lieu.html">Lieu</a></li>
+            <li class="menu_item"><a class="menu_link" href="Espoir.html">Espoir</a></li>
+            <li class="menu_item"><a class="menu_link" href="Crainte.html">Crainte</a></li>
+        </ul>
+        <ul>
+            <li class="menu_item"><a class="menu_link" href="Autre-Projet.html">Autre Projet</a></li>
+            <li class="menu_item"><a class="menu_link" href="Contact.html">Contact</a></li>
+            <li class="menu_item"><a class="menu_link" href="À-propos.html">À propos</a></li>
+            <li class="menu_item"><a class="menu_link" href="Glossaite.html">Glossaire</a></li>
+          </ul>
+       </nav>
+      </header> 
 
    <main>
         <h1>Le futur en musique</h1>
@@ -64,5 +64,19 @@
             </article>
         </section>
    </main>
+
+   <footer>
+    <a href="#"><img src="public/img/Logoblanc.jpg" alt="Logo"></a>
+    <h3>Vers un monde utopique ?</h3>
+    <h3>Informations légales</h3>
+    <p>Mentions légales</p>
+    <p>Conditions générales</p>
+    <p>Paramètres des cookies</p>
+    <img src="public/img/Position.jpg" alt="logo Position"> <h3>FRANCE</h3>
+    <h3>Nous suivre</h3>
+    <img src="public/img/Facebook.jpg" alt="logo facebook"> <img src="public/img/Insta.jpg" alt="logo insta"> <img src="public/img/Twitter.jpg" alt="logo twitter">
+    <p>projet réalisé dans le cadre d’un exercice pédagogique au département <a href="https://mmi-montbeliard.nathanvanbignootvincler.fr">MMi de Montbéliard</a></p>
+</footer>
+
 </body>
 </html>
