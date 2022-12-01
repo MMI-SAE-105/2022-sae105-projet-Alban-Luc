@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Rubiki";
+    src: url("BrixtonTc.otf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Mulish";
+    src: url("Mulish-VariableFont_wght.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+    font-family: "Rubiki";
+}
+
+p {
+    font-family: "Mulish";
+}
+
+h2{
+    font-family: "Rubiki";
+}
+
+.menu__item{
+    font-family: "Mulish";
+}
