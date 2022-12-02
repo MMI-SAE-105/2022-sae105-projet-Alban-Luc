@@ -40,31 +40,13 @@
 
       <main>
         <h1>Contact</h1>
-        <form>
-            <div>
-                <label for="nom">Nom :</label>
-                <input type="text" id="nom" name="user_name">
-            </div>
-            <div>
-                <label for="prenom">Prénom :</label>
-                <input type="text" id="prenom" name="user_name">
-            </div>
-            <div>
-                <label for="telephone">Numéro de téléphone :</label>
-                <input type="text" id="telepohne" name="user_name">
-            </div>
-            <div>
-                <label for="mail">E-mail&nbsp;:</label>
-                <input type="email" id="mail" name="user_mail">
-            </div>
-            <div>
-                <label for="msg">Message :</label>
-                <textarea id="msg" name="user_message"></textarea>
-            </div>
-            <div class="button">
-                <button type="envoyer">Envoyer le message</button>
-            </div>
-        </form>
+
+        <form>      
+            <input name="nom" type="text" class="feedback-input" placeholder="Nom" />   
+            <input name="email" type="text" class="feedback-input" placeholder="Email" />
+            <textarea name="text" class="feedback-input" placeholder="Message"></textarea>
+            <input type="submit" value="SUBMIT"/>
+          </form>
 
       </main>
 

@@ -1,5 +1,6 @@
 @import url(/src/fonts/font.css);
 @import url(/src/css/frise.css);
+@import url(/src/css/contact.css);
 
 body {
   background-color: rgb( 146 , 138 , 129);
