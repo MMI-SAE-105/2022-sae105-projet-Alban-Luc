@@ -1,7 +1,9 @@
-@import url("/src/fonts/font.css");
+@import url(/src/fonts/font.css);
+@import url(/src/css/frise.css);
 
 body {
   background-color: rgb( 146 , 138 , 129);
+  margin: 0%;
 } 
 
 header{
@@ -28,73 +30,81 @@ a:visited{
 footer{
   background-color: rgb( 54 , 54 , 54);
   color: aliceblue;
-}
-body {
-
-margin: 0;
-}
-
-.menu {
-position: fixed;
-width: 0px;
-position: absolute;
-right: 0px;
+  padding: 1%;
 }
 
 main {
 margin-left: 10px;
 width: 500px;
 text-align: justify;
-padding-top: 20px;
+padding-top: 50px;
 
 }
 
-#hamburger {
-display: none;
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(106 , 89 , 82);
+  position: fixed;
+  width: 100%;
 }
 
-#hamburger-logo {
-cursor: pointer;
-background: #D9D9D9;
-width: 20px;
-display: block;
-color: #D9D9D9;
-text-align: left;
-transform: translateX(-200px);
-padding: 5px;
-position: absolute;
-right: 0px;
-
+.nav-bar > * {
+  text-decoration: none;
+  padding: 16px;
+  display: inline-block;
+  cursor: pointer;
+  color: #333;
+  transition: 0.2s;
 }
 
-nav {
-display: flex;
-flex-direction: column;
-background: #D9D9D9;
-overflow: hidden;
-width: 200px;
-transform: translateX(-200px);
-
+input#open {
+  display: none;
 }
 
-#hamburger-logo,
-nav {
-transition: 0.7s;
+input:checked + .menu {
+  width: 50%;
+}
+
+.menu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #C5C5C5;
+  overflow-x: hidden;
+  transition: all 0.4s;
+  padding-top: 60px;
+  border-radius: 30px;
+}
+
+.menu a {
+  padding: 8px 8px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+  transition: 0.3s;
 }
 
 
-#hamburger:checked ~ #hamburger-logo,
-#hamburger:checked ~ nav {
-
-transform: translate(0);
+.close {
+  position: absolute;
+  top: 0;
+  right: -30px;
+  font-size: 36px;
+  margin-right: 50px;
+  color: #000000;
+  cursor: pointer;
 }
 
-nav a {
-color: rgb(0, 0, 0);
-text-decoration: none;
-padding: 10px;
+ul{
+  list-style-type:none;
 }
 
-p{
-  padding: 2%;
+.vector{
+  display: flex;
+  margin-left: 70%;
 }
