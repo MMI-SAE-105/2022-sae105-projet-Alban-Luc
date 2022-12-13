@@ -1,10 +1,20 @@
+/* font */
 @import url(/src/fonts/font.css);
+
 @import url(/src/css/frise.css);
 @import url(/src/css/contact.css);
+
+/* normalize */
 @import url(/src/css/vendors/normalize.css);
-@import url(/src/css/layout/header.css);
+
+/* components */
 @import url(/src/css/components/menu.css);
+
+/* base */
 @import url(/src/css/base/main.css);
+
+/* layout */
 @import url(/src/css/layout/footer.css);
+@import url(/src/css/layout/header.css);
 
 
