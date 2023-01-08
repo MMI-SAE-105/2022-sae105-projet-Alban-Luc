@@ -20,7 +20,19 @@ body {
  }
 
  p{
-   padding-left: 50px;
-   padding-right: 50px;
+   padding-left: 30px;
+   padding-right: 30px;
+ }
+
+ .autrep a{
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+
+ }
+
+ .liprojet{
+   background-color: rgb(170, 170, 170);
+   margin-right: 50px;
+   padding: 20px;
  }
  
